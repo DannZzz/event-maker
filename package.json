@@ -1,0 +1,37 @@
+{
+  "name": "@onlydann/event-maker",
+  "version": "1.0.0",
+  "description": "Events, listeners and middlewares",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "tsc && node test.js",
+    "test:ts": "tsc && node dist/test/test.js"
+  },
+  "devDependencies": {
+    "@types/colors": "^1.2.1",
+    "@types/node": "^18.14.0"
+  },
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "colors": "^1.4.0"
+  },
+  "author": {
+    "name": "Dann",
+    "email": "vmakichyan0@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DannZzz/event-maker"
+  },
+  "keywords": [
+    "event",
+    "listener",
+    "middleware",
+    "handle"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
